@@ -1,3 +1,9 @@
 h1 {
   font-size: 20px;
 }
+
+.logo {
+  width: 250px;
+  min-height: 190px;
+  background: url("../img/pic.jpg") no-repeat center;
+}

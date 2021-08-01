@@ -1,1 +1,9 @@
-h1{font-size:30px}nav h1{color:tomato;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}footer div{font-size:20px}
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/profile.css ***!
+  \*******************************************************************/h1{font-size:30px}
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/fragments/header.css ***!
+  \****************************************************************************/nav h1{color:tomato;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/fragments/footer.css ***!
+  \****************************************************************************/footer div{font-size:20px}

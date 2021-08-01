@@ -1,1 +1,9 @@
-h1{font-size:20px}nav h1{color:tomato;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}footer div{font-size:20px}
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/index.css ***!
+  \*****************************************************************/h1{font-size:20px}.logo{background:url(f2ee89f0f2bee072bf6a.jpg) no-repeat 50%;min-height:190px;width:250px}
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/fragments/header.css ***!
+  \****************************************************************************/nav h1{color:tomato;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./css/fragments/footer.css ***!
+  \****************************************************************************/footer div{font-size:20px}
