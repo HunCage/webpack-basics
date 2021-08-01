@@ -25,22 +25,41 @@ module.exports = {
                 use: [
                     {
                         loader: MiniCssExtractPlugin.loader
-                    },  
+                    },
                     // "style-loader",
                     "css-loader"
                 ]
             },
             {
+                // test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+                test: /\.(woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'fonts/'
+                        }
+                    }
+                ]
+            },
+            {
                 test: /\.jpg$/,
+                // use: [{
+                    // loader: 'url-loader',
+                    // options: {
+                    //     name: '[name].[ext]',
+                        // outputPath: 'img/'
+                    }
+                // }]
                 // use: [
                 //     {
-                //         loader: 'url-loader',
                 //         // options: {
                 //         //     limit: 2000
                 //         // }
                 //     }
                 // ]
-            }
+            // }
         ]
     }
 };
