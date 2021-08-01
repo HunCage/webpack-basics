@@ -1,0 +1,12 @@
+$main-font: Open Sans;
+
+section {
+    font-size: 50px;
+    font-family: $main-font;
+  }
+  
+  .logo {
+    width: 250px;
+    min-height: 190px;
+    background: url("../img/pic.jpg") no-repeat center;
+  }

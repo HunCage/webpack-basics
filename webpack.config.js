@@ -31,6 +31,28 @@ module.exports = {
                 ]
             },
             {
+                test: /\.s[ac]ss$/,
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    // "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ]
+            },
+            {
+                test: /\.less$/,
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    // "style-loader",
+                    "css-loader",
+                    "less-loader"
+                ]
+            },
+            {
                 // test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                 test: /\.(woff|woff2)$/,
                 use: [

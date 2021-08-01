@@ -1,6 +1,6 @@
 import 'typeface-open-sans';
-import '../css/index.css';
-import '../css/fragments/header.css';
+import '../sass/index.scss';
+import '../less/header.less';
 import '../css/fragments/footer.css';
 
 // console.log(css.toString());
