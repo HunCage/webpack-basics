@@ -7,6 +7,17 @@ module.exports = {
         // path: path.join(process.cwd(), 'dist'),
         // filename: '[name].min.js'
         filename: '[name].js',
-        library: '_'
+        // library: '_'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    "style-loader",
+                    "css-loader"
+                ]
+            }
+        ]
     }
 };

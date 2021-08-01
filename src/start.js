@@ -1,7 +1,10 @@
-import $ from "jquery";
+// import $ from "jquery";
+import css from '../css/style.css';
 
-$('h1').text('webpack Basics');
+// console.log(css.toString());
 
-export function countWords(string) {
-    return string.split(" ").length;
-}
+// $('h1').text('Webpack Basics');
+
+// export function countWords(string) {
+//     return string.split(" ").length;
+// }
